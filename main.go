@@ -25,7 +25,6 @@ func main() {
 		fmt.Printf("\r%s", string(body))
 
 		time.Sleep(1000 * time.Millisecond)
-		//fmt.Print("\033[1A\033[K")
 	}
 }
 
